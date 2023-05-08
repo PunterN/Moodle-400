@@ -1,0 +1,14 @@
+[Mon May 08 03:16:31.444727 2023] [ssl:warn] [pid 8520:tid 452] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon May 08 03:16:31.694696 2023] [ssl:warn] [pid 8520:tid 452] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  PHP Startup: Unable to load dynamic library 'sodium' (tried: C:\\Moodle-400\\server\\php\\ext\\sodium (The specified module could not be found.), C:\\Moodle-400\\server\\php\\ext\\php_sodium.dll (The specified module could not be found.)) in Unknown on line 0
+[Mon May 08 03:16:34.585341 2023] [mpm_winnt:notice] [pid 8520:tid 452] AH00455: Apache/2.4.53 (Win64) OpenSSL/1.1.1n PHP/7.4.28 configured -- resuming normal operations
+[Mon May 08 03:16:34.585341 2023] [mpm_winnt:notice] [pid 8520:tid 452] AH00456: Apache Lounge VC15 Server built: Mar 16 2022 15:48:38
+[Mon May 08 03:16:34.585341 2023] [core:notice] [pid 8520:tid 452] AH00094: Command line: 'apache\\bin\\httpd.exe -d C:/Moodle-400/server/apache -f conf\\httpd.conf'
+[Mon May 08 03:16:34.647835 2023] [mpm_winnt:notice] [pid 8520:tid 452] AH00418: Parent: Created child process 2776
+[Mon May 08 03:16:35.563844 2023] [ssl:warn] [pid 2776:tid 208] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon May 08 03:16:35.720085 2023] [ssl:warn] [pid 2776:tid 208] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  PHP Startup: Unable to load dynamic library 'sodium' (tried: C:\\Moodle-400\\server\\php\\ext\\sodium (The specified module could not be found.), C:\\Moodle-400\\server\\php\\ext\\php_sodium.dll (The specified module could not be found.)) in Unknown on line 0
+[Mon May 08 03:16:35.782584 2023] [mpm_winnt:notice] [pid 2776:tid 208] AH00354: Child: Starting 150 worker threads.
+[Mon May 08 04:41:23.374267 2023] [mpm_winnt:notice] [pid 8520:tid 452] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon May 08 04:41:25.405502 2023] [mpm_winnt:notice] [pid 2776:tid 208] AH00364: Child: All worker threads have exited.
+[Mon May 08 04:41:26.046089 2023] [mpm_winnt:notice] [pid 8520:tid 452] AH00430: Parent: Child process 2776 exited successfully.
